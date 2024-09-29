@@ -1,0 +1,4487 @@
+/* -----------------------Banner-------------------------------- */
+.banner {
+    background-image: url('../images/banner.png');
+    padding: 70px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.banner .img-box {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.banner .img-box img {
+    display: block;
+    height: auto;
+}
+
+.banner .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #745a82;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.banner .banner-heading {
+    color: #745a82;
+    font-size: 50px;
+    font-weight: 200;
+}
+
+.banner .banner-para {
+    font-weight: 700;
+    font-size: 50px;
+    color: #745a82;
+    padding: 20px 0;
+}
+
+.banner .banner-sub-para {
+    font-size: 25px;
+    max-width: 400px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+.banner span {
+    font-size: 25px;
+}
+
+
+/* -------------------------------NavBar------------------------------------- */
+.navbar img {
+    height: 110px;
+}
+
+.navbar {
+    padding: 0 60px;
+}
+
+.navbar .nav-item {
+    font-size: 25px;
+
+}
+
+.navbar .nav-link {
+    color: #745a82;
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+}
+
+.navbar ul {
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    padding: 0 40px;
+}
+
+/* ---------------------------------Yoga Class-------------------------------------------- */
+
+.yoga-class {
+    padding: 80px 0;
+    background-image: url('../images/circle-banner.png');
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: 1000px;
+
+}
+
+.yoga-class .yoga-class-heading {
+    font-size: 42px;
+    color: #745a82;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.yoga-class .yoga-class-para {
+    font-size: 42px;
+    font-weight: 700;
+    padding: 0 0 60px;
+    color: #745a82;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.yoga-class .content2-heading {
+    color: #745a82;
+    font-family: "Open Sans", sans-serif;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.yoga-class img {
+    padding: 0 0 40px;
+}
+
+.yoga-class .content2-heading-text {
+    color: #745a82;
+    font-family: "Open Sans", sans-serif;
+    font-size: 23px;
+    padding: 0 0 20px;
+    max-width: 300px;
+    border-bottom: 2px solid #745a82;
+    font-weight: 400;
+}
+
+.yoga-class .yoga-class-days {
+    color: #745a82;
+    font-size: 28px;
+}
+
+.yoga-class .yoga-class-days span {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+}
+
+
+.yoga-class .know-more {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.yoga-class .know {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    background-color: #745a82;
+    padding: 20px 80px;
+    border-radius: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+/* --------------------------------Summer Class----------------------------------------- */
+
+.summer-class {
+    background-image: url('../images/summer-class.png');
+    padding: 550px 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.summer-class .summer-class-heading {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 50px;
+    letter-spacing: 3px;
+    font-weight: 600;
+}
+
+
+.summer-class .summer-class-heading-2 {
+    color: white;
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 3px;
+}
+
+.summer-class .summer-heading {
+    line-height: 40px;
+}
+
+
+.summer-class .dates {
+    color: white;
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    line-height: 20px;
+    padding: 35px 0;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+/* -----------------------------Healthy Life--------------------------------------------- */
+.healthy-life {
+    padding: 120px 0 0;
+}
+
+.healthy-life .healthy-class-heading {
+    text-align: center;
+    color: #745a82;
+    font-size: 35px;
+    position: relative;
+}
+
+
+.healthy-life .healthy-class-heading::after,
+.healthy-life .healthy-class-heading::before {
+    content: '';
+    position: absolute;
+    width: 55%;
+    height: 2px;
+    background-color: #745a82;
+    bottom: 15px;
+    width: calc(55% - 200px);
+}
+
+.healthy-life .healthy-class-heading::before {
+    left: 0;
+}
+
+.healthy-life .healthy-class-heading::after {
+    right: 0;
+}
+
+.healthy-life .healthy-class-life {
+    text-align: center;
+    color: #745a82;
+    font-size: 35px;
+    padding: 0 0 100px;
+    font-weight: 400;
+}
+
+.healthy-life .healthy-life-heading {
+    font-size: 25px;
+    color: #745a82;
+    padding: 30px 0 0;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+}
+
+.healthy-life .healthy-life-para {
+    font-size: 25px;
+    color: #745a82;
+    padding: 30px 0 40px;
+    font-family: "Open Sans", sans-serif;
+    line-height: 35px;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-weight: 200;
+}
+
+
+/* ----------------------Dynamic Practice---------------------- */
+.dynamics {
+    background-image: url('../images/practice.left.png');
+    background-position: top left;
+    background-size: 700px;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 200px 120px;
+    position:relative;
+}
+
+
+
+.dynamics .dynamics-heading {
+    color: #745a82;
+    font-size: 50px;
+}
+
+.dynamics span {
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.dynamics .dynamics-heading-2 {
+    color: #745a82;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.dynamics .dynamic-prac {
+    padding: 50px 0 30px;
+
+}
+
+.dynamics .dynamic-practice-heading {
+    color: #745a82;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.dynamics .dynamics-para {
+    font-size: 25px;
+    color: #745a82;
+    max-width: 500px;
+    padding: 0 0 30px;
+    border-bottom: 2px solid #745a82;
+    font-family: "Open Sans", sans-serif;
+    line-height: 45px;
+}
+
+.dynamics .flex-box {
+    display: flex;
+}
+
+.dynamics ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.dynamics .part1 {
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: #745a82;
+    font-weight: 700;
+}
+
+.dynamics .part2 {
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: #745a82;
+    font-weight: 700;
+}
+
+.dynamics .dynamics-dates {
+    padding: 0 0 30px;
+}
+
+.dynamics .img-box {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dynamics .table-grid{
+    display: flex;
+    margin: 0;
+}
+
+.dynamics .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 300px;
+    height: 50px; 
+}
+
+.dynamics .grid-item {
+    display: flex;
+    font-size: 25px;
+    color: #745a82;
+}
+
+.dynamics .grid-item-span{
+    font-size: 25px;
+    color: #745a82;
+    font-weight: 700;
+}
+
+.dynamics .hatha{
+    width: 20px;
+    text-align: center;
+    word-break: break-all;
+    position: absolute;
+    right: 5%;
+    bottom: 150px;
+    color:#745a82;
+    font-size: 25px;
+    font-weight: 340;
+    line-height: 40px;
+}
+
+
+/* ----------------------------------------Dynamics-2----------------------------------- */
+.dynamics-2 {
+    background-image: url('../images/practice-2.png');
+    background-position: top right;
+    background-size: 600px;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 120px 120px;
+    position: relative;
+}
+
+.dynamics-2 {
+    padding: 120px 120px;
+}
+
+
+.dynamics-2 .dynamics-heading {
+    color: #745a82;
+    font-size: 50px;
+}
+
+.dynamics-2 span {
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.dynamics-2 .dynamics-heading-2 {
+    color: #745a82;
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.dynamics-2 .dynamic-prac {
+    padding: 50px 0 10px;
+
+}
+
+.dynamics-2 .dynamic-practice-heading {
+    color: #745a82;
+    font-family: "Open Sans", sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+
+.dynamics-2 .dynamics-para {
+    font-size: 25px;
+    color: #745a82;
+    max-width: 500px;
+    padding: 0 0 30px;
+    border-bottom: 2px solid #745a82;
+    line-height: 45px;
+}
+
+.dynamics-2 .flex-box {
+    display: flex;
+}
+
+.dynamics-2 ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.dynamics-2 .part1 {
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: #745a82;
+    font-weight: 700;
+}
+
+.dynamics-2 .part2 {
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: #745a82;
+    font-weight: 700;
+}
+
+.dynamics-2 .dynamics-dates {
+    padding: 0 0 30px;
+}
+
+.dynamics-2 .img-box {
+    height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.dynamics-2 .table-grid{
+    display: flex;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.dynamics-2 .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    width: 300px;
+    height: 50px; 
+}
+
+.dynamics-2 .grid-item {
+    display: flex;
+    font-size: 25px;
+    color: #745a82;
+}
+
+.dynamics-2 .grid-item-span{
+    font-size: 25px;
+    color: #745a82;
+    font-weight: 700;
+}
+
+.dynamics-2 .hatha{
+    width: 20px;
+    text-align: center;
+    word-break: break-all;
+    position: absolute;
+    bottom: 80px;
+    color:#745a82;
+    font-size: 25px;
+    font-weight: 340;
+    line-height: 40px;
+    left:5%;
+}
+
+/* ---------------------------------------------Workshop-------------------------------- */
+
+.workshop {
+    padding: 20px 150px;
+    position: relative;
+}
+
+.workshop .text {
+    color: #745a82;
+}
+
+.workshop h1 {
+    font-size: 50px;
+    font-weight: 400;
+}
+
+.workshop h2 {
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.workshop .try {
+    color: #745a82;
+    line-height: 25px;
+    font-family: "Open Sans", sans-serif;
+    padding: 25px 0;
+}
+
+.workshop p {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.workshop .workshop-dates {
+    color: #745a82;
+    font-family: "Open Sans", sans-serif;
+    line-height: 25px;
+    font-size: 25px;
+}
+
+.workshop .initiation-date {
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+}
+
+.workshop .initiation{
+    width: 5px;
+    text-align: center;
+    word-break: break-all;
+    position: absolute;
+    bottom: 200px;
+    color:#745a82;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 35px;
+    left:2%;
+}
+
+.workshop .verticle{
+    width: 5px;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    word-break: break-all;
+    position: absolute;
+    bottom: 2px;
+
+    color:#745a82;
+    font-size: 25px;
+    line-height: 50px;
+    right:5%;
+    font-weight: 400;
+}
+
+
+
+/* ---------------------------------------------------------------------------------- */
+.look-at {
+    padding: 80px 0;
+}
+
+.look-at .yoga-class-heading {
+    font-size: 42px;
+    color: #745a82;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    text-align: center;
+}
+
+.look-at .yoga-class-para {
+    font-size: 40px;
+    font-weight: 700;
+    padding: 0 0 60px;
+    color: #745a82;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+}
+
+.look-at .content2-heading {
+    color: #745a82;
+    font-family: "Open Sans", sans-serif;
+    font-size: 33px;
+    font-weight: 700;
+}
+
+.look-at img {
+    padding: 0 0 40px;
+}
+
+.look-at .content2-heading-text {
+    color: #745a82;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    padding: 0 0 20px;
+    max-width: 400px;
+    border-bottom: 2px solid #745a82;
+    font-weight: 400;
+}
+
+.look-at .yoga-class-days {
+    color: #745a82;
+    font-size: 28px;
+}
+
+.look-at .yoga-class-days span {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+}
+
+
+.look-at .know-more {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+.look-at .know {
+    font-family: "Open Sans", sans-serif;
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    background-color: #745a82;
+    padding: 20px 80px;
+    border-radius: 50px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+/* ---------------------------------Footer------------------------------------- */
+
+.footer {
+    background-image: url('../images/footer-theme.png');
+    background-position: top right;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 120px 120px;
+}
+
+.footer .footer-para {
+    padding: 100px;
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+    color: #745a82;
+    max-width: 900px;
+    margin: auto;
+    font-weight: 700;
+    line-height: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    margin-top: 100px;
+}
+
+.footer .footer-headings {
+    display: flex;
+    flex-direction: column;
+    font-family: "Open Sans", sans-serif;
+    align-items: center;
+}
+
+.footer .footer-data {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.footer .column {
+    width: 30%;
+    text-align: center;
+    font-size: 17px;
+    color: #745a82;
+}
+
+.footer .footer-about {
+    width: 30%;
+    font-family: "Open Sans", sans-serif;
+    text-align: center;
+    font-size: 23px;
+    color: #745a82;
+    padding-bottom: 30px;
+    font-weight: 700;
+}
+
+.footer .second-section {
+    padding: 50px 0;
+}
+
+.footer .logo-box img {
+    height: 130px;
+}
+
+.footer .footer-heading-about {
+    color: #745a82;
+    font-family: "Open Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.footer .footer-second-para {
+    color: #745a82;
+    font-size: 22px;
+    font-family: "Open Sans", sans-serif;
+    max-width: 500px;
+    font-weight: 400;
+    padding: 20px 0 40px;
+}
+
+/* ----------------------------Media Queries---------------------------------- */
+@media(max-width:1919px) and (min-width:1440px) {
+    .banner {
+        background-image: url('../images/banner.png');
+        padding: 50px 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    .banner .img-box {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner .img-box img {
+        display: block;
+        height: 550px;
+    }
+
+    .banner .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #745a82;
+        padding: 10px 20px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .banner .banner-heading {
+        color: #745a82;
+        font-size: 25px;
+        font-weight: 200;
+    }
+
+    .banner .banner-para {
+        font-weight: 700;
+        font-size: 40px;
+        color: #745a82;
+        padding: 20px 0;
+    }
+
+    .banner .banner-sub-para {
+        font-size: 20px;
+        max-width: 400px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        line-height: 30px;
+    }
+
+    .banner span {
+        font-size: 25px;
+    }
+
+    .navbar img {
+        height: 80px;
+    }
+
+    .navbar {
+        padding: 0 60px;
+    }
+
+    .navbar .nav-item {
+        font-size: 20px;
+
+    }
+
+    .navbar .nav-link {
+        color: #745a82;
+        font-family: "Nunito", sans-serif;
+        font-weight: 700;
+    }
+
+    .navbar ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar li {
+        padding: 0 30px;
+    }
+
+    .yoga-class{
+        background-image: url('../images/circle-banner.png');
+        background-position: center top;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 180px 0;
+    }
+
+    .yoga-class .yoga-class-heading {
+        font-size: 32px;
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .yoga-class .yoga-class-para {
+        font-size: 32px;
+        font-weight: 600;
+        padding: 0 0 60px;
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+    }
+
+    .yoga-class .content2-heading {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .yoga-class img {
+        padding: 0 0 40px;
+    }
+
+    .yoga-class .content2-heading-text {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        padding: 0 0 20px;
+        max-width: 300px;
+        border-bottom: 2px solid #745a82;
+        font-weight: 400;
+    }
+
+    .yoga-class .yoga-class-days {
+        color: #745a82;
+        font-size: 25px;
+    }
+
+    .yoga-class .yoga-class-days span {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 200;
+        font-size: 25px;
+    }
+
+
+    .yoga-class .know-more {
+        display: flex;
+        justify-content: center;
+        padding: 45px;
+    }
+
+    .yoga-class .know {
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        text-decoration: none;
+        color: white;
+        background-color: #745a82;
+        padding: 18px 50px;
+        border-radius: 50px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+
+    .summer-class {
+        background-image: url('../images/summer-class.png');
+        padding: 450px 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .summer-class .summer-class-heading {
+        color: white;
+        font-size: 50px;
+    }
+
+    .summer-class .summer-class-heading {
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-size: 50px;
+        font-weight: 600;
+    }
+
+
+    .summer-class .summer-class-heading-2 {
+        color: white;
+        font-size: 50px;
+        font-weight: 400;
+    }
+
+    .summer-class .summer-heading {
+        line-height: 40px;
+    }
+
+
+    .summer-class .dates {
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-size: 22px;
+        line-height: 20px;
+        padding: 35px 0;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+
+     .dynamics {
+        background-image: url('../images/practice.left.png');
+        background-position: top left;
+        background-size: 500px;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 100px 80px;
+    }
+
+
+
+    .dynamics .dynamics-heading {
+        color: #745a82;
+        font-size: 40px;
+    }
+
+    .dynamics span {
+        font-weight: 200;
+    }
+
+    .dynamics .dynamics-heading-2 {
+        color: #745a82;
+        font-size: 40px;
+        font-weight: 300;
+    }
+
+    .dynamics .dynamic-prac {
+        padding: 50px 0 30px;
+
+    }
+
+    .dynamics .dynamic-practice-heading {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 28px;
+    }
+
+    .dynamics .dynamics-para {
+        font-size: 20px;
+        color: #745a82;
+        max-width: 500px;
+        padding: 0 0 30px;
+        border-bottom: 2px solid #745a82;
+        line-height: 40px;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .dynamics .flex-box {
+        display: flex;
+    }
+
+    .dynamics ul {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+    }
+
+    .dynamics .part1 {
+        font-size: 20px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        font-weight: 700;
+    }
+
+    .dynamics .part2 {
+        font-size: 20px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        font-weight: 700;
+    }
+
+    .dynamics .dynamics-dates {
+        padding: 0 0 30px;
+    }
+
+    .dynamics .img-box {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .dynamics .table-grid{
+        display: flex;
+        margin: 0;
+    }
+    
+    .dynamics .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 300px;
+        height: 50px; 
+    }
+    
+    .dynamics .grid-item {
+        display: flex;
+        font-size: 20px;
+        color: #745a82;
+    }
+    
+    .dynamics .grid-item-span{
+        font-size: 20px;
+        color: #745a82;
+        font-weight: 700;
+    }
+
+
+    .dynamics-2 {
+        background-image: url('../images/practice-2.png');
+        background-position: top right;
+        background-size: 400px;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 100px 80px;
+    }
+
+
+
+    .dynamics-2 .dynamics-heading {
+        color: #745a82;
+        font-size: 40px;
+    }
+
+    .dynamics-2 span {
+        font-weight: 200;
+    }
+
+    .dynamics-2 .dynamics-heading-2 {
+        color: #745a82;
+        font-size: 40px;
+        font-weight: 300;
+    }
+
+    .dynamics-2 .dynamic-prac {
+        padding: 50px 0 30px;
+
+    }
+
+    .dynamics-2 .dynamic-practice-heading {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 28px;
+    }
+
+    .dynamics-2 .dynamics-para {
+        font-size: 20px;
+        color: #745a82;
+        max-width: 500px;
+        padding: 0 0 30px;
+        border-bottom: 2px solid #745a82;
+        line-height: 40px;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .dynamics-2 .flex-box {
+        display: flex;
+    }
+
+    .dynamics-2 ul {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+    }
+
+    .dynamics-2 .part1 {
+        font-size: 20px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        font-weight: 700;
+    }
+
+    .dynamics-2 .part2 {
+        font-size: 20px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        font-weight: 700;
+    }
+
+    .dynamics-2 .dynamics-dates {
+        padding: 0 0 30px;
+    }
+
+    .dynamics-2 .img-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } 
+
+    .dynamics-2 .img-box img{
+        height: 500px;
+    }
+
+    .dynamics .img-box img{
+        height: 500px;
+    }
+
+    .dynamics-2 .table-grid{
+        display: flex;
+        margin: 0;
+    }
+    
+    .dynamics-2 .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 300px;
+        height: 50px; 
+    }
+    
+    .dynamics-2 .grid-item {
+        display: flex;
+        font-size: 20px;
+        color: #745a82;
+    }
+    
+    .dynamics-2 .grid-item-span{
+        font-size: 20px;
+        color: #745a82;
+        font-weight: 700;
+    }
+
+
+
+    
+    .healthy-life {
+        padding: 80px 0 0;
+    }
+
+    .healthy-life .healthy-class-heading {
+        text-align: center;
+        color: #745a82;
+        font-size: 33px;
+        position: relative;
+    }
+
+
+    .healthy-life .healthy-class-heading::after,
+    .healthy-life .healthy-class-heading::before {
+        content: '';
+        position: absolute;
+        width: 57%;
+        height: 2px;
+        background-color: #745a82;
+        bottom: 15px;
+        width: calc(57% - 200px);
+    }
+
+    .healthy-life .healthy-class-heading::before {
+        left: 0;
+    }
+
+    .healthy-life .healthy-class-heading::after {
+        right: 0;
+    }
+
+    .healthy-life .healthy-class-life {
+        text-align: center;
+        color: #745a82;
+        font-size: 33px;
+        padding: 0 0 80px;
+        font-weight: 300;
+    }
+
+    .healthy-life .healthy-life-heading {
+        font-size: 25px;
+        color: #745a82;
+        padding: 30px 0 0;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+    }
+
+    .healthy-life .healthy-life-para {
+        font-size: 20px;
+        color: #745a82;
+        padding: 30px 0 40px;
+        font-family: "Open Sans", sans-serif;
+        line-height: 35px;
+        max-width: 400px;
+        margin: auto;
+        text-align: center;
+        font-weight: 200;
+    }
+
+    .look-at {
+        padding: 60px 0;
+    }
+
+    .look-at .yoga-class-heading {
+        font-size: 32px;
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .look-at .yoga-class-para {
+        font-size: 30px;
+        font-weight: 700;
+        padding: 0 0 60px;
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+    }
+
+    .look-at .content2-heading {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 28px;
+        font-weight: 700;
+    }
+
+    .look-at img {
+        padding: 0 0 40px;
+    }
+
+    .look-at .content2-heading-text {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        padding: 0 0 20px;
+        max-width: 400px;
+        border-bottom: 2px solid #745a82;
+        font-weight: 400;
+    }
+
+    .look-at .yoga-class-days {
+        color: #745a82;
+        font-size: 25px;
+    }
+
+    .look-at .yoga-class-days span {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 200;
+        font-size: 25px;
+    }
+
+
+    .look-at .know-more {
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .look-at .know {
+        font-family: "Open Sans", sans-serif;
+        font-size: 22px;
+        text-decoration: none;
+        color: white;
+        background-color: #745a82;
+        padding: 18px 50px;
+        border-radius: 50px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+
+    .workshop {
+        padding: 80px 80px;
+    }
+
+    .workshop .text {
+        color: #745a82;
+    }
+
+    .workshop h1 {
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .workshop h2 {
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+    .workshop .try {
+        color: #745a82;
+        line-height: 23px;
+        font-family: "Open Sans", sans-serif;
+        padding: 25px 0;
+    }
+
+    .workshop p {
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    .workshop .workshop-dates {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        line-height: 23px;
+        font-size: 25px;
+    }
+
+    .workshop .initiation-date {
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .workshop .img-box img {
+        height: 600px;
+    }
+
+    .footer {
+        background-image: url('../images/footer-theme.png');
+        background-position: top right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 80px 80px;
+    }
+
+    .footer .footer-para {
+        padding: 100px;
+        font-size: 20px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        max-width: 900px;
+        margin: auto;
+        font-weight: 700;
+        line-height: 40px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 100px;
+    }
+
+    .footer .footer-headings {
+        display: flex;
+        flex-direction: column;
+        font-family: "Open Sans", sans-serif;
+        align-items: center;
+    }
+
+    .footer .footer-data {
+        display: flex;
+        justify-content: space-between;
+        font-family: "Open Sans", sans-serif;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer .column {
+        width: 30%;
+        text-align: center;
+        font-size: 15px;
+        color: #745a82;
+    }
+
+    .footer .footer-about {
+        width: 30%;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        font-size: 23px;
+        color: #745a82;
+        padding-bottom: 30px;
+        font-weight: 700;
+    }
+
+    .footer .second-section {
+        padding: 50px 0;
+    }
+
+    .footer .logo-box img {
+        height: 130px;
+    }
+
+    .footer .footer-heading-about {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .footer .footer-second-para {
+        color: #745a82;
+        font-size: 18px;
+        font-family: "Open Sans", sans-serif;
+        max-width: 500px;
+        font-weight: 400;
+        padding: 20px 0 40px;
+    }
+}
+
+@media(max-width:1439px) and (min-width:1024px) {
+    .navbar img {
+        height: 60px;
+    }
+
+    .navbar {
+        padding: 0 20px;
+    }
+
+    .navbar .nav-item {
+        font-size: 15px;
+
+    }
+
+    .navbar .nav-link {
+        color: #745a82;
+        font-family: "Nunito", sans-serif;
+        font-weight: 700;
+    }
+
+    .navbar ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar li {
+        padding: 0 30px;
+    }
+
+    .banner {
+        background-image: url('../images/banner.png');
+        padding: 45px 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    .banner .img-box {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner .img-box img {
+        display: block;
+        height: 400px;
+    }
+
+    .banner .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #745a82;
+        padding: 10px 20px;
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .banner .banner-heading {
+        color: #745a82;
+        font-size: 20px;
+        font-weight: 200;
+    }
+
+    .banner .banner-para {
+        font-weight: 700;
+        font-size: 30px;
+        color: #745a82;
+        padding: 10px 0;
+        margin: 0;
+    }
+
+    .banner .banner-sub-para {
+        font-size: 15px;
+        max-width: 300px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        line-height: 20px;
+    }
+
+    .banner span {
+        font-size: 20px;
+    }
+
+    .yoga-class {
+        padding: 50px 0;
+    }
+
+    .yoga-class .yoga-class-heading {
+        font-size: 28px;
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .yoga-class .yoga-class-para {
+        font-size: 28px;
+        font-weight: 600;
+        padding: 0 0 50px;
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+    }
+
+    .yoga-class .content2-heading {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .yoga-class img {
+        padding: 0 0 40px;
+    }
+
+    .yoga-class .content2-heading-text {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        padding: 0 0 15px;
+        max-width: 300px;
+        border-bottom: 2px solid #745a82;
+        font-weight: 400;
+    }
+
+    .yoga-class .yoga-class-days {
+        color: #745a82;
+        font-size: 20px;
+    }
+
+    .yoga-class .yoga-class-days span {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 200;
+        font-size: 20px;
+    }
+
+
+    .yoga-class .know-more {
+        display: flex;
+        justify-content: center;
+        padding: 45px;
+    }
+
+    .yoga-class .know {
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        color: white;
+        background-color: #745a82;
+        padding: 15px 40px;
+        border-radius: 50px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+
+    .summer-class {
+        background-image: url('../images/summer-class.png');
+        padding: 250px 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .summer-class .summer-class-heading {
+        color: white;
+        font-size: 40px;
+    }
+
+    .summer-class .summer-class-heading {
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+    }
+
+
+    .summer-class .summer-class-heading-2 {
+        color: white;
+        font-size: 40px;
+        font-weight: 400;
+    }
+
+    .summer-class .summer-heading {
+        line-height: 40px;
+    }
+
+
+    .summer-class .dates {
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-size: 18px;
+        line-height: 15px;
+        padding: 25px 0;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+
+
+    .dynamics {
+        background-image: url('../images/practice.left.png');
+        background-position: top left;
+        background-size: 400px;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 500px;
+        padding: 80px 60px;
+    }
+
+
+
+    .dynamics .dynamics-heading {
+        color: #745a82;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .dynamics span {
+        font-weight: 200;
+        font-size: 25px;
+    }
+
+    .dynamics .dynamics-heading-2 {
+        color: #745a82;
+        font-size: 30px;
+        margin: 0;
+        font-weight: 300;
+    }
+
+    .dynamics .dynamic-prac {
+        padding: 30px 0 30px;
+
+    }
+
+    .dynamics .dynamic-practice-heading {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 25px;
+    }
+
+    .dynamics .dynamics-para {
+        font-size: 15px;
+        color: #745a82;
+        max-width: 300x;
+        padding: 0 0 30px;
+        border-bottom: 2px solid #745a82;
+        line-height: 30px;
+        font-family: "Open Sans", sans-serif;
+        margin: 0;
+    }
+
+
+    .dynamics .flex-box {
+        display: flex;
+    }
+
+    .dynamics ul {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+    }
+
+    .dynamics .part1 {
+        font-size: 18px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        font-weight: 700;
+    }
+
+    .dynamics .part2 {
+        font-size: 18px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        font-weight: 700;
+    }
+
+    .dynamics .dynamics-dates {
+        padding: 0 0 20px;
+    }
+
+    .dynamics .img-box {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 500px;
+        padding-bottom: 100px;
+    }
+
+     .dynamics .table-grid{
+        display: flex;
+        margin: 0;
+    }
+    
+    .dynamics .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 300px;
+        height: 50px; 
+    }
+    
+    .dynamics .grid-item {
+        display: flex;
+        font-size: 17px;
+        color: #745a82;
+    }
+    
+    .dynamics .grid-item-span{
+        font-size: 17px;
+        color: #745a82;
+        font-weight: 700;
+    }
+
+     .dynamics .img-box img{
+           height: 350px;
+
+     }
+
+
+    .dynamics-2 {
+        background-image: url('../images/practice-2.png');
+        background-position: top right;
+        background-size:300px;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 50px 60px;
+    }
+
+
+
+    .dynamics-2 .dynamics-heading {
+        color: #745a82;
+        font-size: 30px;
+        margin: 0;
+    }
+
+    .dynamics-2 span {
+        font-weight: 200;
+        font-size: 25px;
+    }
+
+    .dynamics-2 .dynamics-heading-2 {
+        color: #745a82;
+        font-size: 30px;
+        margin: 0;
+        font-weight: 300;
+    }
+
+    .dynamics-2 .dynamic-prac {
+        padding: 30px 0 30px;
+
+    }
+
+    .dynamics-2 .dynamic-practice-heading {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 25px;
+    }
+
+    .dynamics-2 .dynamics-para {
+        font-size: 15px;
+        color: #745a82;
+        max-width: 300px;
+        padding: 0 0 30px;
+        border-bottom: 2px solid #745a82;
+        line-height: 30px;
+        font-family: "Open Sans", sans-serif;
+        margin: 0;
+    }
+
+
+    .dynamics-2 .flex-box {
+        display: flex;
+    }
+
+    .dynamics-2 ul {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+    }
+
+    .dynamics-2 .part1 {
+        font-size: 18px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        font-weight: 700;
+    }
+
+    .dynamics-2 .part2 {
+        font-size: 18px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        font-weight: 700;
+    }
+
+    .dynamics-2 .dynamics-dates {
+        padding: 0 0 20x;
+    }
+
+    .dynamics-2 .img-box img {
+        height: 400px;
+    } 
+
+    .dynamics-2 .table-grid{
+        display: flex;
+        margin: 0;
+    }
+    
+    .dynamics-2 .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 300px;
+        height: 50px; 
+    }
+    
+    .dynamics-2 .grid-item {
+        display: flex;
+        font-size: 17px;
+        color: #745a82;
+    }
+    
+    .dynamics-2 .grid-item-span{
+        font-size: 17px;
+        color: #745a82;
+        font-weight: 700;
+    }
+
+    .healthy-life {
+        padding: 10px 0 0;
+    }
+
+    .healthy-life .healthy-class-heading {
+        text-align: center;
+        color: #745a82;
+        font-size: 28px;
+        position: relative;
+    }
+
+
+    .healthy-life .healthy-class-heading::after,
+    .healthy-life .healthy-class-heading::before {
+        content: '';
+        position: absolute;
+        width: 63%;
+        height: 2px;
+        background-color: #745a82;
+        bottom: 15px;
+        width: calc(63% - 200px);
+    }
+
+    .healthy-life .healthy-class-heading::before {
+        left: 0;
+    }
+
+    .healthy-life .healthy-class-heading::after {
+        right: 0;
+    }
+
+    .healthy-life .healthy-class-life {
+        text-align: center;
+        color: #745a82;
+        font-size: 28px;
+        padding: 0 0 70px;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    .healthy-life .healthy-life-heading {
+        font-size: 20px;
+        color: #745a82;
+        padding: 30px 0 0;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+    }
+
+    .healthy-life .healthy-life-para {
+        font-size: 15px;
+        color: #745a82;
+        padding: 10px 0 40px;
+        font-family: "Open Sans", sans-serif;
+        line-height: 25px;
+        max-width: 250px;
+        margin: auto;
+        text-align: center;
+        font-weight: 200;
+    }
+
+    .look-at {
+        padding: 45px 0;
+    }
+
+    .look-at .yoga-class-heading {
+        font-size: 28px;
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .look-at .yoga-class-para {
+        font-size: 25px;
+        font-weight: 700;
+        padding: 0 0 60px;
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+    }
+
+    .look-at .content2-heading {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    .look-at img {
+        padding: 0 0 40px;
+    }
+
+    .look-at .content2-heading-text {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 17px;
+        padding: 0 0 20px;
+        max-width: 400px;
+        border-bottom: 2px solid #745a82;
+        font-weight: 400;
+    }
+
+    .look-at .yoga-class-days {
+        color: #745a82;
+        font-size: 20px;
+    }
+
+    .look-at .yoga-class-days span {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 200;
+        font-size: 20px;
+    }
+
+
+    .look-at .know-more {
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .look-at .know {
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        color: white;
+        background-color: #745a82;
+        padding: 15px 40px;
+        border-radius: 50px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+
+    .workshop {
+        padding: 0 40px 40px;
+    }
+
+    .workshop .text {
+        color: #745a82;
+    }
+
+    .workshop h1 {
+        font-size: 30px;
+        font-weight: 300;
+        color: #745a82;
+    }
+
+    .workshop h2 {
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+    .workshop .try {
+        color: #745a82;
+        line-height: 23px;
+        font-family: "Open Sans", sans-serif;
+        padding: 25px 0;
+    }
+
+    .workshop p {
+        font-size: 23px;
+        font-weight: 700;
+    }
+
+    .workshop .workshop-dates {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        line-height: 23px;
+        font-size: 20px;
+    }
+
+    .workshop .initiation-date {
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .workshop .img-box img {
+        height: 400px;
+    }
+
+    .footer {
+        background-image: url('../images/footer-theme.png');
+        background-position: top right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 40px 40px;
+    }
+
+    .footer .footer-para {
+        padding: 70px;
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        max-width: 600px;
+        margin: auto;
+        font-weight: 800;
+        line-height: 30px;
+        text-transform: uppercase;
+        margin-top: 100px;
+    }
+
+    .footer .footer-headings {
+        display: flex;
+        flex-direction: column;
+        font-family: "Open Sans", sans-serif;
+        align-items: center;
+    }
+
+    .footer .footer-data {
+        display: flex;
+        justify-content: space-between;
+        font-family: "Open Sans", sans-serif;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer .column {
+        width: 30%;
+        text-align: center;
+        font-size: 12px;
+        color: #745a82;
+    }
+
+    .footer .footer-about {
+        width: 30%;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        font-size: 20px;
+        color: #745a82;
+        padding-bottom: 30px;
+        font-weight: 700;
+    }
+
+    .footer .second-section {
+        padding: 50px 0;
+    }
+
+    .footer .logo-box img {
+        height: 100px;
+    }
+
+    .footer .footer-heading-about {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .footer .footer-second-para {
+        color: #745a82;
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+        max-width: 350px;
+        font-weight: 400;
+        padding: 20px 0 40px;
+    }
+
+}
+
+@media(max-width:1023px) and (min-width: 768px) {
+    .navbar img {
+        height: 55px;
+    }
+
+    .navbar {
+        padding: 0 20px;
+    }
+
+    .navbar .nav-item {
+        font-size: 13px;
+
+    }
+
+    .navbar .nav-link {
+        color: #745a82;
+        font-family: "Nunito", sans-serif;
+        font-weight: 700;
+    }
+
+    .navbar ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar li {
+        padding: 0 30px;
+    }
+
+    .banner {
+        background-image: url('../images/banner.png');
+        padding: 30px 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    .banner .img-box {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner .img-box img {
+        display: block;
+        height: 300px;
+    }
+
+    .banner .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #745a82;
+        padding: 10px 20px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .banner .banner-heading {
+        color: #745a82;
+        font-size: 15px;
+        font-weight: 200;
+    }
+
+    .banner .banner-para {
+        font-weight: 700;
+        font-size: 20px;
+        color: #745a82;
+        padding: 5px 0;
+        margin: 0;
+    }
+
+    .banner .banner-sub-para {
+        font-size: 12px;
+        max-width: 250px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        line-height: 15px;
+    }
+
+    .banner span {
+        font-size: 20px;
+    }
+
+    .yoga-class {
+        padding: 50px 0;
+    }
+
+    .yoga-class .yoga-class-heading {
+        font-size: 25px;
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .yoga-class .yoga-class-para {
+        font-size: 25px;
+        font-weight: 600;
+        padding: 0 0 30px;
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        margin: 0;
+    }
+
+    .yoga-class .content2-heading {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .yoga-class .day{
+        padding: 10px 0 20px;
+    }
+
+    .yoga-class img {
+        padding: 0 0 40px;
+    }
+
+    .yoga-class .content2-heading-text {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        padding: 0 0 20px;
+        max-width: 300px;
+        border-bottom: 2px solid #745a82;
+        font-weight: 400;
+    }
+
+    .yoga-class .yoga-class-days {
+        color: #745a82;
+        font-size: 20px;
+    }
+
+    .yoga-class .yoga-class-days span {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 200;
+        font-size: 20px;
+    }
+
+    .yoga-class .know-more {
+        display: flex;
+        justify-content: center;
+        padding: 50px;
+    }
+
+    .yoga-class .know {
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        color: white;
+        background-color: #745a82;
+        padding: 15px 40px;
+        border-radius: 50px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+
+ 
+
+    .summer-class {
+        background-image: url('../images/summer-class.png');
+        padding: 250px 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .summer-class .summer-class-heading {
+        color: white;
+        font-size: 50px;
+    }
+
+    .summer-class .summer-class-heading {
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-size: 30px;
+        font-weight: 600;
+    }
+
+
+    .summer-class .summer-class-heading-2 {
+        color: white;
+        font-size: 30px;
+        font-weight: 400;
+    }
+
+    .summer-class .summer-heading {
+        line-height: 25px;
+    }
+
+
+    .summer-class .dates {
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        line-height: 15px;
+        padding: 35px 0;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .dynamics {
+        background-image: url('../images/practice.left.png');
+        background-position: top left;
+        background-size: 400px;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 40px 0;
+    }
+
+
+     .dynamics .dynamics-heading {
+        color: #745a82;
+        font-size: 30px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .dynamics span {
+        font-weight: 200;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .dynamics .dynamics-heading-2 {
+        color: #745a82;
+        font-size: 30px;
+        margin: 0;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .dynamics .dynamic-prac {
+        padding: 30px 0 30px;
+        text-align: center;
+
+    }
+
+    .dynamics .dynamic-practice-heading {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .dynamics .dynamics-para {
+        font-size: 15px;
+        color: #745a82;
+        max-width: 300px;
+        padding: 0 0 30px;
+        border-bottom: 2px solid #745a82;
+        line-height: 30px;
+        font-family: "Open Sans", sans-serif;
+        margin: 0;
+        text-align: center;
+    }
+
+    .dynamics ul {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+    }
+
+    .dynamics .part1 {
+        font-size: 18px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        font-weight: 700;
+    }
+
+    .dynamics .part2 {
+        font-size: 18px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        font-weight: 700;
+    }
+
+    .dynamics .dynamics-dates {
+        padding: 0 0 20px;
+        text-align: center;
+    }
+
+    .dynamics .img-box img {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .dynamics .table-grid{
+        display: flex;
+        margin:0;
+    }
+    
+    .dynamics .flex-container {
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+    }
+    .dynamics .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 300px;
+        height: 50px; 
+    }
+    
+    .dynamics .grid-item {
+        display: flex;
+        font-size: 15px;
+        text-align: center;
+        justify-content: center;  
+        align-items: center;
+        color: #745a82;
+    }
+    
+    .dynamics .grid-item-span{
+        font-size: 15px;
+        color: #745a82;
+        text-align: center;
+        justify-content: center;  
+        align-items: center;
+        font-weight: 700;
+    }
+
+    .dynamics .img-box {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dynamics-2 {
+        background-image: url('../images/practice-2.png');
+        background-position: top right;
+        background-size: 300px;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 40px 0;
+    }
+
+    .dynamics-2 .img-box {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+     .dynamics-2 .dynamics-heading {
+        color: #745a82;
+        font-size: 30px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .dynamics-2 span {
+        font-weight: 200;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .dynamics-2 .dynamics-heading-2 {
+        color: #745a82;
+        font-size: 30px;
+        margin: 0;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .dynamics-2 .dynamic-prac {
+        padding: 30px 0 30px;
+        text-align: center;
+
+    }
+
+    .dynamics-2 .dynamic-practice-heading {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 25px;
+        text-align: center;
+    }
+
+    .dynamics-2 .dynamics-para {
+        font-size: 15px;
+        color: #745a82;
+        max-width: 300px;
+        padding: 0 0 30px;
+        border-bottom: 2px solid #745a82;
+        line-height: 30px;
+        font-family: "Open Sans", sans-serif;
+        margin: 0;
+        text-align: center;
+    }
+
+
+
+    .dynamics-2 ul {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+    }
+
+    .dynamics-2 .part1 {
+        font-size: 18px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        font-weight: 700;
+    }
+
+    .dynamics-2 .part2 {
+        font-size: 18px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        font-weight: 700;
+    }
+
+    .dynamics-2 .dynamics-dates {
+        padding: 0 0 20px;
+        text-align: center;
+    }
+
+    .dynamics-2 .img-box img {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .dynamics-2 .table-grid{
+        display: flex;
+        margin:0;
+    }
+    
+    .dynamics-2 .flex-container {
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+    }
+    .dynamics-2 .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 300px;
+        height: 50px; 
+    }
+    
+    .dynamics-2 .grid-item {
+        display: flex;
+        font-size: 15px;
+        text-align: center;
+        justify-content: center;  
+        align-items: center;
+        color: #745a82;
+    }
+    
+    .dynamics-2 .grid-item-span{
+        font-size: 15px;
+        color: #745a82;
+        text-align: center;
+        justify-content: center;  
+        align-items: center;
+        font-weight: 700;
+    }
+
+   
+ 
+
+    .healthy-life {
+        padding: 60px 0 0;
+    }
+
+    .healthy-life .healthy-class-heading {
+        text-align: center;
+        color: #745a82;
+        font-size: 25px;
+        position: relative;
+    }
+
+
+    .healthy-life .healthy-class-heading::after,
+    .healthy-life .healthy-class-heading::before {
+        content: '';
+        position: absolute;
+        width: 68%;
+        height: 2px;
+        background-color: #745a82;
+        bottom: 15px;
+        width: calc(68% - 200px);
+    }
+
+    .healthy-life .healthy-class-heading::before {
+        left: 0;
+    }
+
+    .healthy-life .healthy-class-heading::after {
+        right: 0;
+    }
+
+    .healthy-life .healthy-class-life {
+        text-align: center;
+        color: #745a82;
+        font-size: 25px;
+        padding: 0 0 70px;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    .healthy-life .healthy-life-heading {
+        font-size: 17px;
+        color: #745a82;
+        padding: 30px 0 0;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+    }
+
+    .healthy-life .healthy-life-para {
+        font-size: 13px;
+        color: #745a82;
+        padding: 10px 0 40px;
+        font-family: "Open Sans", sans-serif;
+        line-height: 20px;
+        max-width: 250px;
+        margin: auto;
+        text-align: center;
+        font-weight: 200;
+    }
+
+
+    .look-at {
+        padding: 30px 0;
+    }
+
+    .look-at .yoga-class-heading {
+        font-size: 25px;
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .look-at .yoga-class-para {
+        font-size: 20px;
+        font-weight: 700;
+        padding: 0 0 60px;
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+    }
+
+    .look-at .content2-heading {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .look-at img {
+        padding: 0 0 40px;
+    }
+
+    .look-at .content2-heading-text {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        padding: 0 0 20px;
+        max-width: 400px;
+        border-bottom: 2px solid #745a82;
+        font-weight: 400;
+    }
+
+    .look-at .yoga-class-days {
+        color: #745a82;
+        font-size: 17px;
+    }
+
+    .look-at .yoga-class-days span {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 200;
+        font-size: 17px;
+    }
+
+
+    .look-at .know-more {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .look-at .know {
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        text-decoration: none;
+        color: white;
+        background-color: #745a82;
+        padding: 15px 40px;
+        border-radius: 50px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+
+    .look-at .day{
+        padding: 10px 0;
+    }
+
+    .workshop {
+        padding: 0 40px 40px;
+    }
+
+    .workshop .text {
+        color: #745a82;
+    }
+
+    .workshop h1 {
+        font-size: 25px;
+        font-weight: 300;
+        color: #745a82;
+        text-align: center;
+    }
+
+    .workshop h2 {
+        font-size: 25px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .workshop .try {
+        color: #745a82;
+        line-height: 23px;
+        font-family: "Open Sans", sans-serif;
+        padding: 25px 0;
+    }
+
+    .workshop p {
+        font-size: 20px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .workshop .workshop-dates {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        line-height: 23px;
+        font-size: 17px;
+    }
+
+    .workshop .initiation-date {
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .workshop .img-box img {
+        height: 400px;
+
+    }
+
+    .workshop .img-box {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+
+    .footer {
+        background-image: url('../images/footer-theme.png');
+        background-position: top right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 60px 60px;
+    }
+
+    .footer .footer-para {
+        padding: 100px;
+        font-size: 17px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        max-width: 900px;
+        margin: auto;
+        font-weight: 700;
+        line-height: 30px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 60px;
+    }
+
+    .footer .footer-headings {
+        display: flex;
+        flex-direction: column;
+        font-family: "Open Sans", sans-serif;
+        align-items: center;
+    }
+
+    .footer .footer-data {
+        display: flex;
+        justify-content: space-between;
+        font-family: "Open Sans", sans-serif;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer .column {
+        width: 30%;
+        text-align: center;
+        font-size: 12px;
+        color: #745a82;
+    }
+
+    .footer .footer-about {
+        width: 30%;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        font-size: 18px;
+        color: #745a82;
+        padding-bottom: 30px;
+        font-weight: 700;
+    }
+
+    .footer .second-section {
+        padding: 30px 0;
+    }
+
+    .footer .logo-box img {
+        height: 90px;
+    }
+
+    .footer .footer-heading-about {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .footer .footer-second-para {
+        color: #745a82;
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+        max-width: 500px;
+        font-weight: 400;
+        padding: 10px 0 20px;
+    }
+}
+
+@media(max-width:767px) and (min-width:425px) {
+    .navbar img {
+        height: 45px;
+    }
+
+    .navbar {
+        padding: 0 20px;
+    }
+
+    .navbar .nav-item {
+        font-size: 13px;
+
+    }
+
+    .navbar .nav-link {
+        color: #745a82;
+        font-family: "Nunito", sans-serif;
+        font-weight: 700;
+    }
+
+    .navbar ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar li {
+        padding: 0 30px;
+    }
+
+    .banner {
+        background-image: url('../images/banner.png');
+        padding: 60px 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    .banner .img-box {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner .img-box img {
+        display: block;
+        height: 200px;
+    }
+
+    .banner .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #745a82;
+        padding: 5px 20px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .banner .banner-heading {
+        color: #745a82;
+        font-size: 10px;
+        font-weight: 200;
+    }
+
+    .banner .banner-para {
+        font-weight: 700;
+        font-size: 15px;
+        color: #745a82;
+        padding: 2px 0;
+        margin: 0;
+    }
+
+    .banner .banner-sub-para {
+        font-size: 8px;
+        max-width: 250px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        line-height: 10px;
+    }
+
+    .banner span {
+        font-size: 20px;
+    }
+
+    .yoga-class {
+        padding: 30px 0 0;
+    }
+
+    .yoga-class .yoga-class-heading {
+        font-size: 20px;
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        text-align: center;
+        margin: 0;
+    }
+
+    .yoga-class .yoga-class-para {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 0 0 30px;
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        margin: 0;
+    }
+
+    .yoga-class .content2-heading {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        margin: 0;
+        text-align: center;
+    }
+
+    .yoga-class img {
+        padding: 0 0 20px;
+    }
+
+    .yoga-class .content2-heading-text {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+        padding: 0 0 10px;
+        max-width: 200px;
+        border-bottom: 2px solid #745a82;
+        font-weight: 400;
+        text-align: center;
+        margin: auto;
+    }
+    .yoga-class .yoga-class-days {
+        color: #745a82;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px 0 10px;
+    }
+
+    .yoga-class .yoga-class-days span {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 200;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .yoga-class .know-more {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .yoga-class .img-box{
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .yoga-class .know {
+        font-family: "Open Sans", sans-serif;
+        font-size: 10px;
+        text-decoration: none;
+        color: white;
+        background-color: #745a82;
+        padding: 10px 30px;
+        border-radius: 50px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    .yoga-class .day{
+        padding: 0 0 20px;
+    }
+
+    .summer-class {
+        background-image: url('../images/summer-class.png');
+        padding: 100px 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .summer-class .summer-class-heading {
+        color: white;
+        font-size: 50px;
+    }
+
+    .summer-class .summer-class-heading {
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-size: 25px;
+        font-weight: 600;
+    }
+
+
+    .summer-class .summer-class-heading-2 {
+        color: white;
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .summer-class .summer-heading {
+        line-height: 15px;
+    }
+
+
+    .summer-class .dates {
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        line-height: 8px;
+        padding: 25px 0;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+
+    .dynamics {
+        background-image: url('../images/practice.left.png');
+        background-position: top left;
+        background-size: 150px;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 30px 0;
+    }
+
+
+
+    .dynamics .dynamics-heading {
+        color: #745a82;
+        font-size: 25px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .dynamics span {
+        font-weight: 200;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .dynamics .dynamics-heading-2 {
+        color: #745a82;
+        font-size: 25px;
+        margin: 0;
+        font-weight: 300;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .dynamics .dynamic-prac {
+        padding: 10px 0 10px;
+
+    }
+
+    .dynamics .dynamic-practice-heading {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .dynamics .dynamics-para {
+        font-size: 12px;
+        color: #745a82;
+        max-width: 400px;
+        padding: 0 0 10px;
+        border-bottom: 2px solid #745a82;
+        line-height: 20px;
+        font-family: "Open Sans", sans-serif;
+        margin: auto;
+        text-align: center;
+    }
+
+
+    .dynamics .flex-box {
+        display: flex;
+    }
+
+    .dynamics ul {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+    }
+
+    .dynamics .part1 {
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .dynamics .part2 {
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        text-align: center;
+        font-weight: 700;
+    }
+
+
+    .dynamics .dynamics-dates {
+        padding: 0 0 10px;
+        text-align: center;
+    }
+
+    .dynamics .img-box {
+        display: flex;
+        justify-content: center;
+        height: 300px;
+        align-items: center;
+    }
+
+    .dynamics .img-box img{
+        height: 300px;
+    }
+
+      .dynamics .table-grid{
+        display: flex;
+        margin:0;
+    }
+    
+    .dynamics .flex-container {
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+    }
+    .dynamics .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 300px;
+        height: 50px; 
+    }
+    
+    .dynamics .grid-item {
+        display: flex;
+        font-size: 13px;
+        text-align: center;
+        justify-content: center;  
+        align-items: center;
+        color: #745a82;
+    }
+    
+    .dynamics .grid-item-span{
+        font-size: 13px;
+        color: #745a82;
+        text-align: center;
+        justify-content: center;  
+        align-items: center;
+        font-weight: 700;
+    }
+
+
+    .dynamics-2 {
+        background-image: url('../images/practice-2.png');
+        background-position: top right;
+        background-size: 100px;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 10px 0;
+    }
+
+
+
+    .dynamics-2 .dynamics-heading {
+        color: #745a82;
+        font-size: 25px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .dynamics-2 span {
+        font-weight: 200;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .dynamics-2 .dynamics-heading-2 {
+        color: #745a82;
+        font-size: 25px;
+        margin: 0;
+        font-weight: 300;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .dynamics-2 .dynamic-prac {
+        padding: 10px 0 10px;
+
+    }
+
+    .dynamics-2 .dynamic-practice-heading {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .dynamics-2 .dynamics-para {
+        font-size: 12px;
+        color: #745a82;
+        max-width: 500px;
+        padding: 0 0 10px;
+        border-bottom: 2px solid #745a82;
+        line-height: 20px;
+        font-family: "Open Sans", sans-serif;
+        margin: 0;
+        text-align: center;
+    }
+
+
+    .dynamics-2 .flex-box {
+        display: flex;
+    }
+
+    .dynamics-2 ul {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+    }
+
+    .dynamics-2 .part1 {
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .dynamics-2 .part2 {
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        text-align: center;
+        font-weight: 700;
+    }
+
+
+    .dynamics-2 .dynamics-dates {
+        padding: 0 0 10px;
+    }
+
+    .dynamics-2 .img-box {
+        height: 400px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dynamics-2 .img-box img {
+        height: 350px;
+    } 
+
+    .dynamics-2 .table-grid{
+        display: flex;
+        margin:0;
+    }
+    
+    .dynamics-2 .flex-container {
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+    }
+    .dynamics-2 .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 300px;
+        height: 50px; 
+    }
+    
+    .dynamics-2 .grid-item {
+        display: flex;
+        font-size: 12px;
+        text-align: center;
+        justify-content: center;  
+        align-items: center;
+        color: #745a82;
+    }
+    
+    .dynamics-2 .grid-item-span{
+        font-size: 12px;
+        color: #745a82;
+        text-align: center;
+        justify-content: center;  
+        align-items: center;
+        display: flex;
+        font-weight: 700;
+    }
+
+
+
+    .healthy-life {
+        padding: 40px 0 0;
+    }
+
+    .healthy-life .healthy-class-heading {
+        text-align: center;
+        color: #745a82;
+        font-size: 25px;
+        position: relative;
+    }
+
+    .healthy-life .healthy-class-heading::after,
+    .healthy-life .healthy-class-heading::before {
+        content: '';
+        position: absolute;
+        width: 80%;
+        height: 2px;
+        background-color: #745a82;
+        bottom: 15px;
+        width: calc(80% - 200px);
+    }
+
+    .healthy-life .healthy-class-heading::before {
+        left: 0;
+    }
+
+    .healthy-life .healthy-class-heading::after {
+        right: 0;
+    }
+
+    .healthy-life .healthy-class-life {
+        text-align: center;
+        color: #745a82;
+        font-size: 20px;
+        padding: 0 0 30px;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    .healthy-life .healthy-life-heading {
+        font-size: 15px;
+        color: #745a82;
+        padding: 30px 0 0;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+    }
+
+    .healthy-life .healthy-life-para {
+        font-size: 11px;
+        color: #745a82;
+        padding: 10px 0 30px;
+        font-family: "Open Sans", sans-serif;
+        line-height: 20px;
+        max-width: 250px;
+        margin: auto;
+        text-align: center;
+        font-weight: 200;
+    }
+
+
+    .look-at {
+        padding: 30px 0;
+    }
+
+    .look-at .yoga-class-heading {
+        font-size: 20px;
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .look-at .yoga-class-para {
+        font-size: 20px;
+        font-weight: 700;
+        padding: 0 0 30px;
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        margin: 0;
+    }
+
+    .look-at .content2-heading {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .look-at .img-box {
+        padding: 10px 0;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .look-at img {
+        padding: 0 0 10px;
+    }
+
+    .look-at .content2-heading-text {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        padding: 0 0 10px;
+        max-width: 200px;
+        border-bottom: 2px solid #745a82;
+        margin: auto;
+        font-weight: 400;
+        text-align: center;
+    }
+
+    .look-at .yoga-class-days {
+        color: #745a82;
+        font-size: 17px;
+        text-align: center;
+        padding:  10px 0 0;
+    }
+
+    .look-at .yoga-class-days span {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 200;
+        font-size: 17px;
+    }
+
+
+    .look-at .know-more {
+        display: flex;
+        justify-content: center;
+        padding: 30px;
+    }
+
+    .look-at .know {
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+        background-color: #745a82;
+        padding: 10px 30px;
+        border-radius: 50px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+
+    .look-at .day{
+        padding:  0 0 20px;
+    }
+
+    .workshop {
+        padding: 0 0 20px;
+    }
+
+    .workshop .text {
+        color: #745a82;
+    }
+
+    .workshop h1 {
+        font-size: 20px;
+        font-weight: 300;
+        color: #745a82;
+        text-align: center;
+    }
+
+    .workshop h2 {
+        font-size: 20px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .workshop .try {
+        color: #745a82;
+        line-height: 18px;
+        font-family: "Open Sans", sans-serif;
+        padding: 25px 0;
+    }
+
+    .workshop p {
+        font-size: 15px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .workshop .workshop-dates {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        line-height: 15px;
+        font-size: 15px;
+    }
+
+    .workshop .initiation-date {
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+    }
+
+    .workshop .img-box img {
+        height: 300px;
+
+    }
+
+    .workshop .img-box {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 40px;
+    }
+
+    .footer {
+        background-image: url('../images/footer-theme.png');
+        background-position: top right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 30px 0 0;
+    }
+
+    .footer .footer-para {
+        padding: 30px;
+        font-size: 14px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        max-width: 900px;
+        margin: auto;
+        font-weight: 700;
+        line-height: 20px;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        margin-top: 60px;
+    }
+
+    .footer .footer-headings {
+        display: flex;
+        flex-direction: column;
+        font-family: "Open Sans", sans-serif;
+        align-items: center;
+    }
+
+    .footer .footer-data {
+        display: flex;
+        justify-content: space-between;
+        font-family: "Open Sans", sans-serif;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer .column {
+        width: 30%;
+        text-align: center;
+        font-size: 12px;
+        color: #745a82;
+    }
+
+    .footer .footer-about {
+        width: 30%;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        font-size: 12px;
+        color: #745a82;
+        padding-bottom: 15px;
+        font-weight: 700;
+    }
+
+    .footer .second-section {
+        padding: 30px 0;
+    }
+
+    .footer .logo-box img {
+        height: 90px;
+    }
+
+    .footer .footer-heading-about {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 17px;
+        font-weight: 700;
+        text-align: center;
+        max-width: 500px;
+    }
+
+    .footer .footer-second-para {
+        color: #745a82;
+        font-size: 12px;
+        font-family: "Open Sans", sans-serif;
+        max-width: 500px;
+        font-weight: 400;
+        padding: 10px 0 20px;
+        margin: 0;
+        text-align: center;
+    }
+
+    .footer .logo-box {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+@media(max-width:424px) and (min-width:320px) {
+    .navbar {
+        height: 40px;
+    }
+
+    .navbar {
+        padding: 0 20px;
+    }
+
+    .navbar .nav-item {
+        font-size: 13px;
+
+    }
+
+    .navbar .nav-link {
+        color: #745a82;
+        font-family: "Nunito", sans-serif;
+        font-weight: 700;
+    }
+
+    .navbar ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .navbar li {
+        padding: 0 30px;
+    }
+
+    .navbar img {
+        height: 30px;
+    }
+
+
+    .banner {
+        background-image: url('../images/banner.png');
+        padding:50px 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    .banner .img-box {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+
+    .banner .img-box img {
+        display: block;
+        height: 150px;
+    }
+
+    .banner .overlay-text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #745a82;
+        padding: 5px 20px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .banner .banner-heading {
+        color: #745a82;
+        font-size: 8px;
+        font-weight: 200;
+    }
+
+    .banner .banner-para {
+        font-weight: 700;
+        font-size: 12px;
+        font-weight: 500;
+        color: #745a82;
+        padding: 1px 0;
+        margin: 0;
+    }
+
+    .banner .banner-sub-para {
+        font-size: 6px;
+        max-width: 100px;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        line-height: 5px;
+        padding-top: 10px;
+    }
+
+    .banner span {
+        font-size: 6px;
+    }
+
+    .yoga-class {
+        padding: 30px 0 0;
+    }
+
+    .yoga-class .yoga-class-heading {
+        font-size: 20px;
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        text-align: center;
+        margin: 0;
+    }
+
+    .yoga-class .yoga-class-para {
+        font-size: 20px;
+        font-weight: 600;
+        padding: 0 0 30px;
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        margin: 0;
+    }
+
+    .yoga-class .content2-heading {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        margin: 0;
+        text-align: center;
+    }
+
+
+
+    .yoga-class .content2-heading-text {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 10px;
+        padding: 0 0 10px;
+        max-width: 200px;
+        border-bottom: 2px solid #745a82;
+        font-weight: 400;
+        text-align: center;
+        margin: auto;
+    }
+
+    .yoga-class .yoga-class-days {
+        color: #745a82;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .yoga-class .yoga-class-days span {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 200;
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .yoga-class .know-more {
+        display: flex;
+        justify-content: center;
+        padding: 10px;
+    }
+
+    .yoga-class .img-box img {
+        height: 200px;
+        padding: 0 0 10px;
+    }
+
+    .yoga-class .img-box{
+        display: flex;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .yoga-class .know {
+        font-family: "Open Sans", sans-serif;
+        font-size: 8px;
+        text-decoration: none;
+        color: white;
+        background-color: #745a82;
+        padding: 10px 20px;
+        border-radius: 50px;
+        font-weight: 600;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    .yoga-class .day{
+        padding: 10px 0 10px;
+    }
+
+    
+
+    .summer-class {
+        background-image: url('../images/summer-class.png');
+        padding: 80px 0;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .summer-class .summer-class-heading {
+        color: white;
+        font-size: 35px;
+    }
+
+    .summer-class .summer-class-heading {
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+
+    .summer-class .summer-class-heading-2 {
+        color: white;
+        font-size: 20px;
+        margin: 0;
+        font-weight: 400;
+    }
+
+    .summer-class .summer-heading {
+        line-height: 15px;
+    }
+
+
+    .summer-class .dates {
+        color: white;
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+        line-height: 5px;
+        padding: 25px 0;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
+
+    .dynamics {
+        background-image: url('../images/practice.left.png');
+        background-position: top left;
+        background-size: 80px;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 40px 10px;
+    }
+
+
+
+    .dynamics .dynamics-heading {
+        color: #745a82;
+        font-size: 25px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .dynamics span {
+        font-weight: 200;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .dynamics .dynamics-heading-2 {
+        color: #745a82;
+        font-size: 25px;
+        margin: 0;
+        font-weight: 300;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .dynamics .dynamic-prac {
+        padding: 10px 0 10px;
+
+    }
+
+    .dynamics .dynamic-practice-heading {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .dynamics .dynamics-para {
+        font-size: 12px;
+        color: #745a82;
+        max-width: 300px;
+        padding: 0 0 10px;
+        border-bottom: 2px solid #745a82;
+        line-height: 20px;
+        font-family: "Open Sans", sans-serif;
+        margin: 0;
+        text-align: center;
+    }
+
+
+    .dynamics .flex-box {
+        display: flex;
+    }
+
+    .dynamics ul {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+    }
+
+    .dynamics .part1 {
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .dynamics .part2 {
+        font-size: 15px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        text-align: center;
+        font-weight: 700;
+    }
+
+
+    .dynamics .dynamics-dates {
+        padding: 0 0 10px;
+        text-align: center;
+    }
+
+    .dynamics .img-box {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dynamics .img-box img{
+        height :300px
+    }
+
+    .dynamics .table-grid{
+        display: flex;
+        margin:0;
+    }
+    
+    .dynamics .flex-container {
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+    }
+    .dynamics .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 300px;
+        height: 50px; 
+    }
+    
+    .dynamics .grid-item {
+        display: flex;
+        font-size: 10px;
+        text-align: center;
+        justify-content: center;  
+        align-items: center;
+        color: #745a82;
+    }
+    
+    .dynamics .grid-item-span{
+        font-size: 10px;
+        color: #745a82;
+        text-align: center;
+        justify-content: center;  
+        align-items: center;
+        font-weight: 700;
+    }
+
+
+
+    .dynamics-2 {
+        background-image: url('../images/practice-2.png');
+        background-position: top right;
+        background-size: 50px;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 40px 0;
+    }
+
+
+
+    .dynamics-2 .dynamics-heading {
+        color: #745a82;
+        font-size: 20px;
+        text-align: center;
+        margin: 0;
+    }
+
+    .dynamics-2 span {
+        font-weight: 200;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .dynamics-2 .dynamics-heading-2 {
+        color: #745a82;
+        font-size: 10px;
+        margin: 0;
+        font-weight: 300;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+
+    .dynamics-2 .dynamic-prac {
+        padding: 8px 0 8px;
+
+    }
+
+    .dynamics-2 .dynamic-practice-heading {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .dynamics-2 .dynamics-para {
+        font-size: 10px;
+        color: #745a82;
+        max-width: 300px;
+        padding: 0 0 10px;
+        border-bottom: 2px solid #745a82;
+        line-height: 15px;
+        font-family: "Open Sans", sans-serif;
+        margin: 0;
+        text-align: center;
+    }
+
+
+    .dynamics-2 .flex-box {
+        display: flex;
+    }
+
+    .dynamics-2 ul {
+        margin: 0;
+        list-style: none;
+        padding: 0;
+    }
+
+    .dynamics-2 .part1 {
+        font-size: 12px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        font-weight: 700;
+        text-align: center;
+        margin: 0;
+    }
+
+    .dynamics-2 .part2 {
+        font-size: 12px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        text-align: center;
+        font-weight: 700;
+    }
+
+
+    .dynamics-2 .dynamics-dates {
+        padding: 0 0 10px;
+    }
+
+    .dynamics-2 .img-box {
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .dynamics-2 .img-box img {
+        height: 300px;
+    } 
+    .dynamics-2 .table-grid{
+        display: flex;
+        margin:0;
+    }
+    
+    .dynamics-2 .flex-container {
+        display: flex;
+        justify-content: center;  
+        align-items: center;
+    }
+    .dynamics-2 .grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        width: 300px;
+        height: 50px; 
+    }
+    
+    .dynamics-2 .grid-item {
+        display: flex;
+        font-size: 10px;
+        text-align: center;
+        justify-content: center;  
+        align-items: center;
+        color: #745a82;
+    }
+    
+    .dynamics-2 .grid-item-span{
+        font-size: 10px;
+        color: #745a82;
+        text-align: center;
+        justify-content: center;  
+        align-items: center;
+        font-weight: 700;
+    }
+
+
+
+    .healthy-life {
+        padding: 10px 0 0;
+    }
+
+    .healthy-life .healthy-class-heading {
+        text-align: center;
+        color: #745a82;
+        font-size: 20px;
+        position: relative;
+    }
+
+
+    .healthy-life .healthy-class-heading::after,
+    .healthy-life .healthy-class-heading::before {
+        content: '';
+        position: absolute;
+        width: 90%;
+        height: 2px;
+        background-color: #745a82;
+        bottom: 15px;
+        width: calc(90% - 200px);
+    }
+
+    .healthy-life .healthy-class-heading::before {
+        left: 0;
+    }
+
+    .healthy-life .healthy-class-heading::after {
+        right: 0;
+    }
+
+    .healthy-life .healthy-class-life {
+        text-align: center;
+        color: #745a82;
+        font-size: 20px;
+        padding: 0 0 50px;
+        font-weight: 300;
+        margin: 0;
+    }
+
+    .healthy-life .healthy-life-heading {
+        font-size: 15px;
+        color: #745a82;
+        padding: 30px 0 0;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+    }
+
+    .healthy-life .healthy-life-para {
+        font-size: 12px;
+        color: #745a82;
+        padding: 10px 0 40px;
+        font-family: "Open Sans", sans-serif;
+        line-height: 15px;
+        max-width: 250px;
+        margin: auto;
+        text-align: center;
+        font-weight: 200;
+    }
+
+
+    .look-at {
+        padding: 20px 0;
+    }
+
+    .look-at .yoga-class-heading {
+        font-size: 20px;
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 300;
+        text-align: center;
+    }
+
+    .look-at .yoga-class-para {
+        font-size: 20px;
+        font-weight: 700;
+        padding: 0 0 30px;
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        margin: 0;
+    }
+
+    .look-at .content2-heading {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .look-at .img-box {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .look-at img {
+        padding: 0 0 10px;
+    }
+
+    .look-at .day{
+        padding:0 0 10px;
+    }
+
+    .look-at .content2-heading-text {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 12px;
+        padding: 0 0 10px;
+        max-width: 200px;
+        border-bottom: 2px solid #745a82;
+        font-weight: 400;
+        text-align: center;
+        margin: auto;
+    }
+
+    .look-at .yoga-class-days {
+        color: #745a82;
+        font-size: 12px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    .look-at .yoga-class-days span {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 200;
+        font-size: 12px;
+    }
+
+    .look-at .know-more {
+        display: flex;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .look-at .know {
+        font-family: "Open Sans", sans-serif;
+        font-size: 8px;
+        text-decoration: none;
+        color: white;
+        background-color: #745a82;
+        padding: 8px 20px;
+        border-radius: 50px;
+        font-weight: 600;
+        letter-spacing: 2px;
+    }
+
+    .look-at .img-box img {
+        height: 200px;
+    }
+
+    .workshop {
+        padding: 0 0 15px;
+    }
+
+    .workshop .text {
+        color: #745a82;
+    }
+
+    .workshop h1 {
+        font-size: 18px;
+        font-weight: 300;
+        color: #745a82;
+        text-align: center;
+    }
+
+    .workshop h2 {
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .workshop .try {
+        color: #745a82;
+        line-height: 5px;
+        font-family: "Open Sans", sans-serif;
+        padding: 20px 0;
+        margin: 0;
+    }
+
+    .workshop p {
+        font-size: 12px;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    .workshop .workshop-dates {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        line-height: 15px;
+        font-size: 12px;
+    }
+
+    .workshop .initiation-date {
+        font-weight: 400;
+        font-family: "Open Sans", sans-serif;
+        margin: 0;
+    }
+
+    .workshop .img-box img {
+        height: 300px;
+
+    }
+
+    .workshop .img-box {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+
+
+    .footer {
+        background-image: url('../images/footer-theme.png');
+        background-position: top right;
+        background-size: contain;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 30px 0 0;
+    }
+
+    .footer .footer-para {
+        padding: 20px;
+        font-size: 12px;
+        font-family: "Open Sans", sans-serif;
+        color: #745a82;
+        max-width: 900px;
+        margin: auto;
+        font-weight: 700;
+        line-height: 15px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        margin-top: 60px;
+    }
+
+    .footer .footer-headings {
+        display: flex;
+        flex-direction: column;
+        font-family: "Open Sans", sans-serif;
+        align-items: center;
+    }
+
+    .footer .footer-data {
+        display: flex;
+        justify-content: space-between;
+        font-family: "Open Sans", sans-serif;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .footer .column {
+        width: 30%;
+        text-align: center;
+        font-size: 10px;
+        color: #745a82;
+    }
+
+
+    .footer .footer-about {
+        width: 30%;
+        font-family: "Open Sans", sans-serif;
+        text-align: center;
+        font-size: 12px;
+        color: #745a82;
+        padding-bottom: 5px;
+        font-weight: 700;
+    }
+    .footer .second-section {
+        padding: 30px 0;
+    }
+
+    .footer .logo-box img {
+        height: 50px;
+    }
+
+    .footer .footer-heading-about {
+        color: #745a82;
+        font-family: "Open Sans", sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        text-align: center;
+        max-width: 500px;
+    }
+
+    .footer .footer-second-para {
+        color: #745a82;
+        font-size: 10px;
+        font-family: "Open Sans", sans-serif;
+        max-width: 500px;
+        font-weight: 400;
+        padding: 10px 0 10px;
+        margin: 0;
+        text-align: center;
+        max-width: 300px;
+        margin: auto;
+    }
+
+
+    .footer .logo-box {
+        display: flex;
+        justify-content: center;
+    }
+
+
+
+} 
